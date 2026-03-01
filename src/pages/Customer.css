@@ -1,0 +1,106 @@
+.customer-dashboard {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.search-bar-container {
+    background: white;
+    padding: 2rem;
+    border-radius: var(--border-radius);
+    box-shadow: var(--shadow);
+    margin-bottom: 2rem;
+    position: sticky;
+    top: 20px;
+    z-index: 10;
+}
+
+.search-form {
+    display: flex;
+    gap: 1rem;
+    margin-bottom: 1.5rem;
+}
+
+.search-input {
+    flex: 1;
+    padding: 1rem;
+    border: 1px solid #ddd;
+    border-radius: var(--border-radius);
+    font-size: 1.1rem;
+    outline: none;
+    transition: border-color 0.2s;
+}
+
+.search-input:focus {
+    border-color: var(--primary-green);
+}
+
+.search-btn {
+    padding: 0 2rem;
+    border-radius: var(--border-radius);
+    background-color: var(--dark-green);
+}
+
+.category-filters {
+    display: flex;
+    gap: 0.5rem;
+    flex-wrap: wrap;
+}
+
+.filter-btn {
+    padding: 0.5rem 1rem;
+    border: 1px solid #eee;
+    background: #f9f9f9;
+    border-radius: 999px;
+    cursor: pointer;
+    font-size: 0.9rem;
+    color: var(--text-dark);
+    transition: all 0.2s;
+}
+
+.filter-btn:hover {
+    background: #e9e9e9;
+}
+
+.filter-btn.active {
+    background-color: rgba(46, 204, 113, 0.1);
+    color: var(--dark-green);
+    border-color: var(--primary-green);
+    font-weight: 500;
+}
+
+.category-tag {
+    background-color: var(--earth-brown);
+    color: white;
+    font-size: 0.75rem;
+    padding: 0.25rem 0.6rem;
+    border-radius: 4px;
+    display: inline-block;
+    margin-bottom: 0.5rem;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+.farmer-name {
+    color: var(--text-light);
+    font-size: 0.9rem;
+    margin-bottom: 0.5rem;
+}
+
+.add-to-cart-btn {
+    margin-top: 1rem;
+    background-color: var(--dark-green);
+}
+
+.add-to-cart-btn:hover {
+    background-color: #145a32;
+}
+
+.no-products {
+    grid-column: 1 / -1;
+    text-align: center;
+    padding: 3rem;
+    color: var(--text-light);
+    font-size: 1.2rem;
+    background: white;
+    border-radius: var(--border-radius);
+}
