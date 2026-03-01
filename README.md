@@ -1,48 +1,34 @@
-# Farm-Direct
+# FarmDirect-E-Commerce-Platform
 
+This is a responsive **Full-Stack E-Commerce Platform** developed as an **individual academic project** using the **MERN Stack (MongoDB, Express, React, Node.js)**.  
+The project demonstrates full-stack development skills, authentication handling, image upload integration using **Multer**, and dynamic cart functionality with real-time database interaction.
 
-This is a full-stack MERN (MongoDB, Express, React, Node.js) E-Commerce Platform developed as an individual academic project.
-The platform connects farmers directly with customers, eliminating middlemen and ensuring fair pricing.
-The project demonstrates full-stack development skills, authentication handling, image uploads, dynamic cart logic, and MongoDB database integration.
+## Live Demo
+Coming Soon
 
-#Live Demo
+## Features
 
+- Farmer registration and login system
+- Customer registration and login system
+- Product listing with image upload functionality
+- Add to Cart functionality
+- Cart data managed dynamically using React state
+- Quantity update and item removal in cart
+- Dynamic cart total calculation
+- Checkout page with Cash on Delivery option
+- Role-based authentication using JWT
+- MongoDB database integration
+- Clean UI with reusable React components
 
+## Technologies Used
 
-#Features
-Farmer Panel
-Farmer Registration & Login
-Add Products with Image Upload (Multer)
-Set Price and Available Quantity
-Manage Products
-
-Customer Side
-Browse Products
-Add to Cart
-Dynamic Cart Count in Navbar
-Increase / Decrease Quantity
-Remove Items from Cart
-Real-time Total Price Calculation
-
-Checkout Page (Cash on Delivery)
-
-#Image Upload System
-
-Multer integration for file uploads
-Static file serving via Express
-Image path stored in MongoDB
-
-#Technologies Used
-
-Frontend
-React (Vite)
-Axios
-CSS
-
-Backend
-Node.js
-Express.js
-MongoDB
-Mongoose
-Multer
-JWT Authentication
+- HTML5 – Structure and layout
+- CSS3 – Styling and responsive design
+- JavaScript (ES6) – Interactivity and logic
+- React (Vite) – Frontend framework
+- Node.js – Server-side runtime
+- Express.js – Backend framework
+- MongoDB – Database management
+- Mongoose – Database modeling
+- Multer – Image upload handling
+- JWT – Authentication system
