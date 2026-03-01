@@ -3,8 +3,6 @@
 This is a responsive **Full-Stack E-Commerce Platform** developed as an **individual academic project** using the **MERN Stack (MongoDB, Express, React, Node.js)**.  
 The project demonstrates full-stack development skills, authentication handling, image upload integration using **Multer**, and dynamic cart functionality with real-time database interaction.
 
-## Live Demo
-Coming Soon
 
 ## Features
 
